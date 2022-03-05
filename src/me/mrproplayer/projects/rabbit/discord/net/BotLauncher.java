@@ -24,7 +24,7 @@ public class BotLauncher extends ListenerAdapter {
     public static void main(String[] args) throws LoginException, IllegalArgumentException {
 
 
-        jda = JDABuilder.create("OTM4NjAxMTQ5MTg2MDU2MjUy.YfsqcA.yk33qUgsnzz7CkcNOav6Casl9Rg",
+        jda = JDABuilder.create("TOKEN",
                 EnumSet.allOf(GatewayIntent.class)).build();
 
 
